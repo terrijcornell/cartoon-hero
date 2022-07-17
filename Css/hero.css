@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+header{
+	background-color: #D9F0FC;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1, h2{
+	font-family: 'Rubik Moonrocks', cursive;
+}
+
+header h1{
+	color: black;
+	font-size: 50px;
+}
+
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border:  10px solid whitesmoke;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 50px;
+	color: black;
+}
+
+a{
+	color: #D9F0FC;
+}
+
+a:hover{
+	color: whitesmoke;
+	background-color: black;
+}
+
+footer{
+	background-color: black;
+	text-align: center;
+	color: whitesmoke;
+}
+footer a{
+	color: yellow;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
