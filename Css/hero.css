@@ -6,7 +6,7 @@ body{
 }
 
 header{
-	background-color: #D9F0FC;
+	background-color: #92CBF9;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -40,10 +40,11 @@ main img{
 h2{
 	font-size: 50px;
 	color: black;
+	margin: 40px 0 10px;
 }
 
 a{
-	color: #D9F0FC;
+	color: #92CBF9;
 }
 
 a:hover{
@@ -52,14 +53,30 @@ a:hover{
 }
 
 footer{
-	background-color: black;
+	background-color: #92CBF9;
 	text-align: center;
-	color: whitesmoke;
+	color: lightyellow;
+	font-family: times new roman;
+	padding: 20px;
+}
+
+footer p{
+	margin: 0;
 }
 footer a{
-	color: yellow;
+	color: black;
+	text-transform: lowercase;
 }
 footer a:hover{
 	opacity: .5;
-	background-color: transparent;
+	background-color: lightyellow;
+	text-transform: uppercase;
+	color: black;
+}
+
+p.caption{
+	color: lightgray;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 0;n
 }
